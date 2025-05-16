@@ -1,0 +1,56 @@
+19:25:11.347 <> INFO  - [TestNG] Running:
+  /Users/vineetkumar/Downloads/SwagLabsAutomation/src/test/resources/testng.xml
+
+19:25:11.361 <> INFO  - ===== Test SwagLabsAutomatonTest  Started: 
+19:25:19.536 <> INFO  - Starting test: testCheckoutWithEmptyFieldsShowsError
+19:25:19.856 <> INFO  - Starting test: loginWithEmptyPassword
+19:25:24.222 <> INFO  - Test Passed: loginWithEmptyPassword
+19:25:24.225 <> INFO  - Starting test: loginWithEmptyUserName
+19:25:24.619 <> INFO  - Starting test: addProductToCart
+19:25:25.107 <> INFO  - Test Passed: addProductToCart
+19:25:25.470 <> INFO  - Test Passed: loginWithEmptyUserName
+19:25:25.472 <> INFO  - Starting test: loginWithInvalidPassword
+19:25:26.167 <> INFO  - Test Passed: testCheckoutWithEmptyFieldsShowsError
+19:25:26.170 <> INFO  - Starting test: testSuccessfulCheckout
+19:25:26.731 <> INFO  - Test Passed: loginWithInvalidPassword
+19:25:26.733 <> INFO  - Starting test: loginWithInvalidUsername
+19:25:27.633 <> INFO  - Starting test: removeProductFromCart
+19:25:28.105 <> INFO  - Test Passed: loginWithInvalidUsername
+19:25:28.108 <> INFO  - Starting test: validateLockedUserLogin
+19:25:29.105 <> INFO  - Test Passed: validateLockedUserLogin
+19:25:29.107 <> INFO  - Starting test: validateValidUserLogin
+19:25:29.693 <> INFO  - Test Passed: testSuccessfulCheckout
+19:25:31.036 <> INFO  - Test Passed: validateValidUserLogin
+19:25:31.037 <> INFO  - Starting test: testCaseToCheckRetryAndScreenshot
+19:25:31.796 <> ERROR - Test Failed: testCaseToCheckRetryAndScreenshot
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertEquals(Assert.java:644) ~[testng-7.11.0.jar:7.11.0]
+	at com.SwagLabs.test.LoginPageTest.testCaseToCheckRetryAndScreenshot(LoginPageTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+19:25:32.148 <> INFO  - Screenshot attached: ../ScreenShots/testCaseToCheckRetryAndScreenshot_20250516_192531.png
+19:25:58.158 <> INFO  - Test Passed: removeProductFromCart
+19:25:59.451 <> INFO  - Starting test: cartCountPersistsAfterRefresh
+19:25:59.937 <> INFO  - Test Passed: cartCountPersistsAfterRefresh
+19:26:00.902 <> INFO  - ===== Test SwagLabsAutomatonTest  Finished: 
