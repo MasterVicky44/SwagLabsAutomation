@@ -30,28 +30,6 @@ The framework includes real-world automation features such as custom reporting, 
 
 ---
 
-## 📁 Project Structure
-
-SwagLabs-Test-Automation/
-│
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ ├── pages/ # Page Object classes
-│ │ ├── utils/ # Utilities: retry, logs, screenshots, reports
-│ │ └── base/ # BaseTest and WebDriver setup
-│
-│ └── test/
-│ ├── java/
-│ │ └── tests/ Test classes
-│ └── resources/
-│ ├── reports/Extent HTML reports
-│ ├── logs/Execution logs
-│ └── ── testng.xml    # TestNG suite file
-│
-├── pom.xml # Maven config
-├── .gitignore
-└── README.md
 
 🔄 Retry Logic
 Each failed test is retried automatically via a custom TestNG RetryAnalyzer. You can configure the retry count in the utility class.
